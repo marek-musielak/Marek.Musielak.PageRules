@@ -1,0 +1,21 @@
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/packages
+/src/.vs/config
+[Oo]bj/
+[Bb]in/
+_ReSharper.*
+packages/
+*.user
+*.cache
+*.suo
+*.userprefs
+*DS_Store
+*.sln.ide
+/.vs
+.vs
+temp/
+.vscode
+/Marek.Musielak.PageRules/Properties/PublishProfiles/FolderProfile.pubxml
