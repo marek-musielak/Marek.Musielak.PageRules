@@ -1,0 +1,98 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Marek-Musielak-Page-Rules</PackageName>
+      <Author>Marek Musielak</Author>
+      <Version>20190303</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xfiles>
+      <Entries>
+        <x-item>/App_Config/Include/zzz/zzz.Marek.Musielak.PageRules.config</x-item>
+        <x-item>/bin/Marek.Musielak.PageRules.dll</x-item>
+        <x-item>/bin/Marek.Musielak.PageRules.pdb</x-item>
+        <x-item>/sitecore/shell/Applications/WebEdit/Dialogs/PageRules/EditPageRules.js</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms />
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>files</Name>
+    </xfiles>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Page Rules/{35B49BC0-9FE3-4259-8872-37161CEFA451}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/WebEdit/Ribbons/WebEdit/Page Editor/Page Rules/Edit Page Rules/{DFCBF3B8-3A00-4C17-9D0F-7B0340D8B9EF}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>core items</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Page Rules/{501E4B74-7ABA-4630-9A9F-4749F65C4A1B}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Page Rules/Change Language Action/{8A0308C8-7218-4244-8A37-12BFBE1F5DCD}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Page Rules/End Response With Status Code Action/{E9284965-7504-4161-9F27-34648D01F873}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Page Rules/Redirect Action/{422600C2-EF7F-4FFC-B291-1BBA3BA9FBF5}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Page Rules/Redirect And Change Language Action/{32EFF348-0942-4325-B732-3E3805C8DE37}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Page Rules/Tags/{E6FAFEA6-408F-4258-9132-DD0879B17655}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Page Rules/Tags/Default/{147B266C-14EF-495F-AAA3-1661D5E9732B}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Elements/Page Rules/Visibility/{F120192D-8F15-4E32-A140-FB89834581F5}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/HTTP Status Codes/{931F6979-9C34-4C6B-9854-D3ECA576E1A4}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/HTTP Status Codes/401 Forbidden/{66C8F0DE-3CA0-4FB1-8819-FA5B33A262BF}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/HTTP Status Codes/404 Page Not Found/{91B607B1-3071-4AD2-BBC3-7FCAC56F927B}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Tags/Page Rules/{C51CB729-D763-45A2-BC62-CA601B9D1A6A}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Definitions/Tags/Page Rules/Visibility/{10AFECA6-A56B-455F-9D1E-923FD1F6DF1B}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Insert Options/Rules/HTTP Status Codes/{DAFF570E-C1FD-4D71-9E58-733D1231D7D9}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Page Rules/{EC7E7793-7488-468D-91B6-C64CF9ABB138}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Page Rules/Rules/{FA29E5C5-153C-41B0-8351-107BF1A44846}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Page Rules/Tags/{ABE03F8B-C14C-4326-B381-0CD5EE99EBEA}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Page Rules/Tags/Default/{031A3680-71AE-403D-83E8-2F284FE4114E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Marek Musielak PageRules/{35E03F8C-6A12-4ECB-B641-867F2AFC91DD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Marek Musielak PageRules/HTTP Status Code/{BC922230-E311-4A17-BF72-DC475D43EFA4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Marek Musielak PageRules/HTTP Status Code/HTTP Status Code/{FF82B9AB-FEF2-4940-A60E-020F638536F9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Marek Musielak PageRules/HTTP Status Code/HTTP Status Code/HTTP Status Code/{F02EC57D-F8EE-4097-A922-77B4BB36737F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Marek Musielak PageRules/Page With Rules/{46E58F7B-3D17-4B31-9A47-A6D97C7F049B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Marek Musielak PageRules/Page With Rules/Page Rules/{5B6DFC16-8BD6-4DE8-9501-9A92C92944CB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/User Defined/Marek Musielak PageRules/Page With Rules/Page Rules/Page Rules/{87A074B2-2F9B-4CDC-BD6E-DF7162A0E21D}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>master items</Name>
+    </xitems>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
