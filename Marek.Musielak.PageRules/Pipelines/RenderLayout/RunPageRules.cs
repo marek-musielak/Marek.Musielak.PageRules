@@ -15,11 +15,9 @@ namespace Marek.Musielak.PageRules.Pipelines.RenderLayout
         {
             try
             {
-                var item = Context.Item;
+                var rulesField = Context.Item?.Fields[PageRulesFieldName];
 
-                var rulesField = item?.Fields[PageRulesFieldName];
-
-                if (rulesField == null || string.IsNullOrEmpty(rulesField.Value))
+                if (rulesField == null || string.IsNullOrWhiteSpace(rulesField.Value))
                     return;
 
                 var rules = RuleFactory.GetRules<PageRulesRuleContext>(rulesField);
