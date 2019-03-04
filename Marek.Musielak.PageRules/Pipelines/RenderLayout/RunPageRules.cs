@@ -2,16 +2,16 @@
 using Marek.Musielak.PageRules.Rules.RuleContext;
 using Sitecore;
 using Sitecore.Diagnostics;
-using Sitecore.Pipelines.RenderLayout;
+using Sitecore.Pipelines;
 using Sitecore.Rules;
 
 namespace Marek.Musielak.PageRules.Pipelines.RenderLayout
 {
-    public class RunPageRules : RenderLayoutProcessor
+    public class RunPageRules
     {
         private const string PageRulesFieldName = "Page Rules";
 
-        public override void Process(RenderLayoutArgs args)
+        public void Process(PipelineArgs args)
         {
             try
             {
